@@ -1,0 +1,38 @@
+body {
+    background-color: beige;
+}
+
+#controlPanel,
+#image {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#controlPanel {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section>div {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 5px;
+}
+
+#width100,
+#width200,
+#width300,
+#opacity25,
+#opacity50,
+#opacity75,
+#rotation0,
+#rotation90,
+#rotation180 {
+    margin-right: 5px;
+}
