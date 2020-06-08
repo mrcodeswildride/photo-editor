@@ -1,0 +1,31 @@
+body {
+  background-color: beige;
+}
+
+#sidePanel,
+#image {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#sidePanel {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-weight: bold;
+}
+
+button {
+  padding: 5px;
+}
+
+#width100Button,
+#width200Button,
+#opacity25Button,
+#opacity50Button,
+#rotation90Button,
+#rotation180Button {
+  margin-right: 5px;
+}
