@@ -10,10 +10,9 @@ body {
 
 #sidePanel {
   margin-right: 30px;
-  margin-bottom: 30px;
 }
 
-p {
+.label {
   font-weight: bold;
 }
 
@@ -28,4 +27,9 @@ button {
 #rotation90Button,
 #rotation180Button {
   margin-right: 5px;
+}
+
+#widthParagraph,
+#opacityParagraph {
+  margin-bottom: 30px;
 }
