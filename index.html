@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Photo Editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.8" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
 
-<head>
-	<title>Photo Editor</title>
-	<meta name="viewport" content="width=device-width, initial-scale=0.5">
-	<link href="style.css" rel="stylesheet">
-	<script src="script.js" defer>
+  <body>
+    <h1>Photo Editor</h1>
 
-	</script>
-</head>
+    <div id="sidePanel">
+      <p class="label">Width</p>
+      <button id="width100Button">100 pixels</button>
+      <button id="width200Button">200 pixels</button>
+      <button id="width300Button">300 pixels</button>
+      <p id="widthParagraph">Selected width: none</p>
 
-<body>
-	<h1>Photo Editor</h1>
+      <p class="label">Opacity</p>
+      <button id="opacity25Button">25%</button>
+      <button id="opacity50Button">50%</button>
+      <button id="opacity75Button">75%</button>
+      <p id="opacityParagraph">Selected opacity: none</p>
 
-	<div id="sidePanel">
-		<p class="label">Width</p>
-		<button id="width100Button">100 pixels</button>
-    <button id="width200Button">200 pixels</button>
-    <button id="width300Button">300 pixels</button>
-    <p id="widthParagraph">Selected width: none</p>
+      <p class="label">Rotation</p>
+      <button id="rotation90Button">90 degrees</button>
+      <button id="rotation180Button">180 degrees</button>
+      <button id="rotation270Button">270 degrees</button>
+      <p id="rotationParagraph">Selected rotation: none</p>
+    </div>
 
-    <p class="label">Opacity</p>
-    <button id="opacity25Button">25%</button>
-    <button id="opacity50Button">50%</button>
-    <button id="opacity75Button">75%</button>
-    <p id="opacityParagraph">Selected opacity: none</p>
-
-    <p class="label">Rotation</p>
-    <button id="rotation90Button">90 degrees</button>
-    <button id="rotation180Button">180 degrees</button>
-    <button id="rotation270Button">270 degrees</button>
-    <p id="rotationParagraph">Selected rotation: none</p>
-  </div>
-
-  <img src="mario-yoshi.png" width="400" id="image">
-</body>
-
+    <img src="mario-yoshi.png" width="400" id="image" />
+  </body>
 </html>
